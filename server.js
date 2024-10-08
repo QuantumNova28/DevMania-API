@@ -12,3 +12,4 @@ app.listen(PORT, () => {
   console.log(`Server running in ${process.env.NODE_ENV} mode on PORT ${PORT}`);
 });
 
+console.log("HI");
