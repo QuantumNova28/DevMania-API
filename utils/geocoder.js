@@ -8,6 +8,5 @@ const options = {
   apiKey: process.env.GEOCODER_API_KEY,
   formatter: null,
 };
-console.log(process.env.GEOCODER_API_KEY);
 
 export const geocoder = NodeGeocoder(options);
